@@ -62,7 +62,7 @@ umount() {
 
 print "#######################################"
 print "#           tabp0le kernel            #"
-print "#        for HTC 10 (LinageOS)        #"
+print "#        for HTC 10 (LineageOS)        #"
 print "#            version 1.1              #"
 print "#             by tabp0le              #"
 print "#######################################"
