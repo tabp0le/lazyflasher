@@ -16,7 +16,7 @@ sepolicy=$ramdisk/sepolicy
 file_contexts=$ramdisk/file_contexts
 seinject=$bin/sepolicy-inject
 # default Android API to KitKat, use policy check to determine actual version
-android_api=19
+android_api=25
 
 found_prop=false
 [ -f "$default_prop" ] && found_prop=true

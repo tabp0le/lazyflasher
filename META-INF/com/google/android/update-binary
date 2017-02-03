@@ -61,9 +61,14 @@ umount() {
 }
 
 print "#######################################"
+print "#           tabp0le kernel            #"
+print "#        for HTC 10 (LinageOS)        #"
+print "#            version 1.1              #"
+print "#             by tabp0le              #"
+print "#######################################"
+print "#             Powered by:             #"
 print "#           kernel flasher            #"
 print "#      by jcadduono, version 5.1      #"
-print "#   add your own intro message here!  #"
 print "#######################################"
 
 # Unpack the installer
@@ -95,7 +100,7 @@ cd "$tmp"
 }
 
 mount /system
-# mount /data
+mount /data
 
 setperm 0755 0755 "$bin"
 

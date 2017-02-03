@@ -6,14 +6,14 @@
 tmp=/tmp/kernel-flasher
 
 # leave device_names empty to allow flashing on any device
-device_names=
+device_names=htc_pmewl htc_pmeuhl htc_pmewhl
 # leave boot_block empty for automatic (searches recovery.fstab and other locations)
-boot_block=
+boot_block=/dev/block/bootdevice/by-name/boot
 # leave ramdisk_compression empty to keep the current ramdisk compression format
 # only gzip, lz4, lzo, and bzip2 are supported
 ramdisk_compression=
 # if you enable this, you will need to add /data mounting to the update-binary script
-# boot_backup=/data/local/boot-backup.img
+boot_backup=/data/local/boot-backup.img
 
 bin=$tmp/tools
 ramdisk=$tmp/ramdisk

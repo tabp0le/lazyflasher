@@ -1,6 +1,6 @@
-NAME ?= kernel-flasher
+NAME ?= kernel_htc_pme_los_tabp0le
 
-VERSION ?= 5.1
+VERSION ?= 1.1
 
 DATE := $(shell date +'%Y%m%d-%H%M')
 
